@@ -1,0 +1,81 @@
+:root {
+  --heading-font-family: "Montserrat", sans-serif;
+  --paragraph-font-family: "Josefin Sans", sans-serif;
+}
+
+.container.datos {
+  margin: 0 auto;
+  background-color: #565353;
+  color: #ffff;
+  max-width: 100%;
+  padding: 20px 75px 80px;
+}
+
+.datos-foto {
+  padding-top: 20px;
+}
+
+.datos-foto h3 {
+  font-size: 23px;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.datos-foto h4 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.campo {
+  margin: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn.send {
+  color: #2d2d2d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  padding: 8px 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-check {
+  display: flex;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.form-check-p {
+  color: #ffff;
+  margin-top: 20px;
+  padding-top: 2px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.form-check-p a {
+  color: #ffff;
+}
+
+img.datosImg {
+  width: auto;
+  margin-top: 20px;
+  height: 45%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}

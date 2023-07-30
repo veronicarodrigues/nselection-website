@@ -1,0 +1,22 @@
+:root {
+  --logo-font-family: "Montagu Slab", serif;
+  --nav-item-font-family: "Poppins", sans-serif;
+  --text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+a.navbar-brand.nselection {
+  margin-left: 50px;
+  margin-right: 40px;
+  font-family: var(--logo-font-family);
+}
+
+li.nav-item {
+  margin-right: 30px;
+  font-family: var(--nav-item-font-family);
+}

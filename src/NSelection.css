@@ -1,0 +1,48 @@
+:root {
+  --heading-one-two-font-family: "  Playfair Display", serif;
+  --heading-three-font: "Josefin Sans", sans-serif;
+  --text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.NSelectionWeb {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+img.homePageImg {
+  max-width: 100%;
+}
+
+h1.heading-one {
+  position: absolute;
+  top: 160px;
+  left: 180px;
+  color: #ffffff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.4);
+  font-size: 55px;
+  text-shadow: var(--text-shadow);
+  font-family: var(--heading-one-two-font-family);
+}
+
+h2.heading-two {
+  position: absolute;
+  top: 300px;
+  left: 180px;
+  color: #ffffff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.4);
+  font-size: 40px;
+  text-shadow: var(--text-shadow);
+  font-family: var(--heading-one-two-font-family);
+  text-align: left;
+}
+
+h4.heading-three {
+  position: absolute;
+  bottom: 150px;
+  left: 180px;
+  font-size: 20px;
+  font-family: var(--heading-three-font);
+  font-style: italic;
+}

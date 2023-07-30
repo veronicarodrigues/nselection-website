@@ -1,0 +1,39 @@
+:root {
+  --heading-font-family: "Montserrat", sans-serif;
+  --paragraph-font-family: "Josefin Sans", sans-serif;
+}
+
+div.container {
+  text-align: left;
+  margin-left: 99px;
+  margin-top: 53px;
+}
+
+.nSelection-h3 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+}
+
+p {
+  font-family: var(--paragraph-font-family);
+  color: #9c9c9c;
+}
+
+.row {
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.col {
+  padding-bottom: 10px;
+}
+
+img.presentationImg {
+  width: auto;
+  height: 45%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}

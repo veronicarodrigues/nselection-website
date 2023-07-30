@@ -1,0 +1,56 @@
+.foot-container {
+  background-color: #565353;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+.foot-container .row {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-bottom: -10px;
+  margin-bottom: 0px;
+  height: 260px;
+}
+
+img.home-logo {
+  display: block;
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  height: 30px;
+  width: auto;
+}
+
+p.moto {
+  color: #ffff;
+  text-align: left;
+  margin-left: 50px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.datos-inmo,
+.legal-inmo {
+  color: #ffff;
+  font-size: 16px;
+}
+
+.foot-container a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.heading {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.section {
+  margin-bottom: 10px;
+}

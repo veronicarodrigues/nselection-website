@@ -1,0 +1,54 @@
+:root {
+  --heading-font-family: "Montserrat", sans-serif;
+}
+
+.container.contacto {
+  margin: 0 auto;
+  margin-top: 60px;
+  color: #000000;
+  max-width: 100%;
+  padding: 30px 75px;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.contacto h3 {
+  font-size: 23px;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.contacto h4 {
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+  font-weight: lighter;
+}
+
+ul.contacto {
+  margin-top: 30px;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+li.phone {
+  margin-bottom: 5px;
+}
+
+.phone-icon {
+  width: 22px;
+  height: auto;
+  margin-bottom: 3px;
+  margin-right: 5px;
+}
+
+.email-icon {
+  width: 20px;
+  height: auto;
+  margin-bottom: 3px;
+  margin-right: 10px;
+}
