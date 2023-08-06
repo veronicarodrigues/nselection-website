@@ -1,13 +1,16 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const currentUrl = window.location.href;
   return (
     <nav className="navbar navbar-expand-lg navbar-light  fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand nselection" href="#" title="Homepage">
+        <a
+          className="navbar-brand nselection"
+          href={currentUrl}
+          title="Homepage"
+        >
           NSelection Real Estate ®
         </a>
         <button

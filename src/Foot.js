@@ -1,7 +1,6 @@
 import React from "react";
 import "./Foot.css";
 import homeLogo from "./media/home-logo.png";
-import { Link } from "react-router-dom";
 
 const Foot = () => {
   const currentUrl = window.location.href;
