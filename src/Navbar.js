@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const currentUrl = window.location.href;
   return (
     <nav className="navbar navbar-expand-lg navbar-light  fixed-top">
       <div className="container-fluid">
@@ -23,7 +24,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href={currentUrl}>
                 Inicio
               </a>
             </li>
@@ -33,7 +34,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href={currentUrl}>
                 Información inmobiliaria
               </a>
             </li>

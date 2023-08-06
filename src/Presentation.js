@@ -26,7 +26,7 @@ const Presentation = () => {
         <div className="col-5 col">
           <img
             src={presentationImg}
-            alt="presentation-image"
+            alt="presentation"
             className="presentationImg"
           />
           <div id="ofrecer"></div>

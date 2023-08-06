@@ -6,7 +6,7 @@ export default function NSelection() {
   return (
     <div className="NSelectionWeb">
       <main>
-        <img src={homePageImg} alt="main-image" className="homePageImg" />
+        <img src={homePageImg} alt="main-page" className="homePageImg" />
         <h1 className="heading-one">
           NSelection <br />
           Real Estate

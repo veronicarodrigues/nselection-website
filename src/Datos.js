@@ -56,14 +56,17 @@ const Datos = () => {
               id="flexCheckDefault"
             />
             <p className="form-check-p" for="flexCheckDefault">
-              Acepto la <a href="#">política de privacidad</a> de NSelection
-              Real Estate y permito que la empresa me contacte por
+              Acepto la{" "}
+              <a href="https://terminosya.com/generador-politica-de-privacidad?gclid=CjwKCAjw5remBhBiEiwAxL2M97iKbwK9Lo4Wg4akNHm7HIzQ7sjeVDdm9FiNhnpE_8nJucafHhPlyBoCmMMQAvD_BwE">
+                política de privacidad
+              </a>{" "}
+              de NSelection Real Estate y permito que la empresa me contacte por
               email/teléfono con motivos informativos.
             </p>
           </div>
         </form>
         <div className="col-4">
-          <img src={datosImg} alt="presentation-image" className="datosImg" />{" "}
+          <img src={datosImg} alt="presentation" className="datosImg" />{" "}
           <div id="contacto"></div>
         </div>
       </div>

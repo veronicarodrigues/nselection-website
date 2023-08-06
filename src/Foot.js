@@ -4,6 +4,7 @@ import homeLogo from "./media/home-logo.png";
 import { Link } from "react-router-dom";
 
 const Foot = () => {
+  const currentUrl = window.location.href;
   return (
     <div className="foot-container">
       <div className="row">
@@ -17,7 +18,7 @@ const Foot = () => {
         <div className="col-3 datos-inmo">
           <ul>
             <li className="heading">
-              <a href="#">Inicio</a>
+              <a href={currentUrl}>Inicio</a>
             </li>
             <li className="section">
               <a href="#presentación">Quiénes somos</a>
@@ -33,16 +34,16 @@ const Foot = () => {
         <div className="col-3 legal-inmo">
           <ul>
             <li className="heading">
-              <a href="#">Información inmobiliaria</a>
+              <a href={currentUrl}>Información inmobiliaria</a>
             </li>
             <li className="section">
-              <a href="#">Documento de la contravenda</a>
+              <a href={currentUrl}>Documento de la contravenda</a>
             </li>
             <li className="section">
-              <a href="#">Impuesto de la contravenda</a>
+              <a href={currentUrl}>Impuesto de la contravenda</a>
             </li>
             <li className="section">
-              <a href="#">Gastos de la contravenda</a>
+              <a href={currentUrl}>Gastos de la contravenda</a>
             </li>
           </ul>
         </div>
