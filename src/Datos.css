@@ -49,17 +49,27 @@
   margin-left: 40px;
   padding: 8px 30px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  display: block;
+}
+
+.sent-data-message {
+  margin-left: 38px;
+  margin-top: 10px;
+}
+
+.sent-data p {
+  margin-bottom: 10px;
 }
 
 .form-check {
   display: flex;
   align-items: start;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .form-check-p {
   color: #ffff;
-  margin-top: 20px;
+
   padding-top: 2px;
   text-align: center;
   font-size: 15px;
