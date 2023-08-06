@@ -40,7 +40,7 @@ h2.heading-two {
 
 h4.heading-three {
   position: absolute;
-  bottom: 150px;
+  bottom: 130px;
   left: 180px;
   font-size: 20px;
   font-family: var(--heading-three-font);
